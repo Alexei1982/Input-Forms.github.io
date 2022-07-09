@@ -1,0 +1,219 @@
+@import url('../../обнуление.css');
+
+
+.wrapper {
+    max-width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/*---- header --------------------------------------*/
+.header {
+    background-color: #232323;
+    width: 100%;
+    height: 60px;
+    display: grid;
+    color: #b3b3b3;
+    font-size: 14px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.header > div {
+    text-align: center;
+    padding: 21px 0;
+}
+
+.logo {}
+
+.forma-number {}
+
+.forma-list {}
+
+.forma-title {
+    cursor: pointer;
+}
+
+.forma-title span {
+    margin-right: 10px;
+}
+
+.forma-title img {
+    width: 14px;
+}
+
+.forma-conteiner {
+    background-color:#e2e2e2;
+    width: 250px;
+    margin: 25px auto;
+    opacity: 0.9;
+    padding: 10px 0px;
+    position: relative;
+    display: none;
+}
+
+@media (max-width:600px) {
+    .logo {
+        display: none;
+    }
+    .header {
+        grid-template-columns: 1fr 1fr;
+    }
+    .forma-conteiner {
+        width: 200px;
+    }
+}
+.forma-conteiner_activ{
+    display: block;
+}
+
+.forma-conteiner ul li img{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.forma-link {
+    margin: 15px 0;
+}
+
+.forma-link a {
+    color: #000;
+}
+
+/*----------------- main --------------------------*/
+
+.main {
+    background-color: rgb(198, 198, 199);
+    padding: 80px 0;
+}
+
+@media (max-width:600px) {
+    .main {
+            padding: 20px 0;
+        }
+}
+
+@media (max-width:450px) {
+    .main {
+        padding: 0px 0px;
+    }
+}
+
+/*------------------ forma-1 ------------------*/
+
+.forma-1 {
+    max-width: 400px;
+    margin: 0 auto;
+    background: linear-gradient(90deg, #BD3321FF 0%, #DB4A37FF 30%, #DB4A37FF 70%, #BD3321FF 100%);
+    border: #B12816FF solid 1px;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    padding: 40px;
+    box-shadow: 0px 7px 16px -3px rgb(0 0 0 / 50%);
+}
+
+.forma-1_2 {
+    max-width: 400px;
+    margin: 0 auto;
+    background: linear-gradient(90deg, #BD3321FF 0%, #DB4A37FF 30%, #DB4A37FF 70%, #BD3321FF 100%);
+    border: #B12816FF solid 1px;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    padding: 40px;
+     box-shadow: 0px 7px 16px -3px rgb(0 0 0 / 50%);
+}
+
+.forma-1_conteiner {
+
+}
+
+.forma-1_header {
+    font-size: 45px;
+    font-weight: 900;
+    text-align: center;
+    text-shadow: 1px 1px 1px #232323;
+    margin: 0 auto;
+}
+
+.forma-1_input-box {
+    margin: 50px auto;
+}
+
+.forma-1_input-box input{
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #232323;
+    width: 100%;
+    height: 40px;
+    padding: 13px 25px;
+    border-radius: 25px;
+    background: linear-gradient(180deg, #C23523FF 0%, #F65543FF 100% );
+}
+
+.forma-1_input-box {
+
+}
+
+.forma-1_input-box input::-webkit-input-placeholder {
+    color: #ffffff;
+    font-size: 12px;
+    text-shadow: 1px 1px 1px #232323;
+}
+
+.forma-1_input-box input:-ms-input-placeholder {
+    color: #ffffff;
+}
+
+.forma-1_input-box input::-ms-input-placeholder {
+    color: #ffffff;
+}
+
+.forma-1_name {
+    margin-bottom: 20px;
+}
+
+.forma-1_passvord {
+    position: relative;
+    z-index: 1;
+}
+
+.forma-1_img {
+    width: 15px;
+    height: 15px;
+    background-image: url(../img/forma-1/открыто.png);
+    position: absolute;
+    z-index: 2;
+    right: 20px;
+    top: 11px;
+}
+
+.forma-1_registracia {
+
+}
+
+.forma-1_registracia button {
+    width: 100%;
+    height: 55px;
+    color: #ffffff;
+    text-shadow: -1px -1px #b86200, 0 1px 0 #ecb76b;
+    font-size: 16px;
+    border-radius: 30px;
+    background: linear-gradient(180deg, #FEBC01FF 0%, #FA9F16FF 100%);
+    box-shadow: 0px 7px 16px -3px rgb(0 0 0 / 50%);
+}
+
+.forma-1_text a {
+    text-decoration: underline;
+    text-decoration-color: #E79489FF;
+    margin-top: 30px;
+    font-size: 11px;
+    color: #ffffff;
+}
+
+.forma-1_text {
+    margin-top: 30px;
+}
+
+.forma-1_text:hover {
+    text-shadow: 1px 2px 1px #3a2b16;
+}
